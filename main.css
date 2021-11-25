@@ -1,0 +1,126 @@
+.iconRow {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-items: center;
+    justify-content:space-evenly;
+    min-width:min-content;
+}
+
+.htmlicon {
+    height: 20vh;
+    padding-right: 45px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.htmlicon:hover {
+    height: 22vh;
+}
+
+.cssicon {
+    height: 15vh;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.cssicon:hover {
+    height: 17vh;
+}
+
+.jsicon {
+    height: 16.5vh;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.jsicon:hover {
+    height: 18.5vh;
+}
+
+.reacticon {
+    height: 10vh;
+    padding-right: 35px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.reacticon:hover {
+    height: 12vh;
+}
+
+.nodeicon {
+    height: 15vh;
+    padding-right: 35px;
+    padding-left: 30px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.nodeicon:hover {
+    height: 17vh;
+}
+
+.postgresicon {
+    height: 15vh;
+    padding-right: 35px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.postgresicon:hover {
+    height: 17vh;
+}
+
+.expressicon {
+    height: 15vh;
+    padding-right: 50px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.expressicon:hover {
+    height: 17vh;
+}
+
+.giticon {
+    height: 10vh;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.giticon:hover {
+    height: 12vh;
+}
+
+.pythonicon {
+    height: 15vh;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.pythonicon:hover {
+    height: 17vh;
+}
+
+.skillsAlign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.sideLook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+   
+}
+
+.myPhoto {
+    height: 50vh;
+    border-radius: 50%;
+    border: 5px solid #dbab83;
+}
+
+
+.aboutPara {
+    border: 1px solid #dbab83;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
