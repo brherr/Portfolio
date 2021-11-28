@@ -123,4 +123,37 @@
     border: 1px solid #dbab83;
     padding-top: 40px;
     margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutContainer {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* SOCIAL BUTTONS */
+.fa {
+    all: unset;
+}
+.fa-linkedin-square {
+    all: unset;
+    font-size: 24px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.linkIcons {
+    display: flex;
+    width: 20vw;
+    padding: 75px;
+    justify-content: space-around;
 }
