@@ -115,7 +115,7 @@
 .myPhoto {
     height: 50vh;
     border-radius: 50%;
-    border: 5px solid #dbab83;
+    border: 2px solid #dbab83;
 }
 
 
@@ -128,32 +128,27 @@
 }
 
 .aboutContainer {
-    width: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-/* SOCIAL BUTTONS */
-.fa {
-    all: unset;
-}
-.fa-linkedin-square {
-    all: unset;
-    font-size: 24px;
+    justify-content: center;
+    padding: 4px;
+    border: 1px solid #dbab83;
 }
 
 .linkContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     align-items: center;
+    margin-top: 2vh;
+}
+
+p.linkContainer {
+    
+    font-size: 36px;
 }
 
 .linkIcons {
     display: flex;
     width: 20vw;
-    padding: 75px;
-    justify-content: space-around;
+    padding: 25px;
+    justify-content: space-evenly;
 }
