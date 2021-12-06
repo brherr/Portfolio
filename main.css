@@ -153,14 +153,10 @@ p.linkContainer {
     justify-content: space-evenly;
 }
 
-/* .projectPics {
-    
+.projectButtons {
     display: flex;
-    justify-items: center;
-    align-items: center;
-    padding: 100px;
-} */
-
+    justify-content: center;
+}
 
 img {
     max-width: 100%;
