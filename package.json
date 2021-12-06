@@ -1,0 +1,23 @@
+{
+  "name": "Brad-Herr-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brherr/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brherr/Portfolio/issues"
+  },
+  "homepage": "https://github.com/brherr/Portfolio#readme"
+}
