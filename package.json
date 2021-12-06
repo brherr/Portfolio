@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "index.html"
+    "start": "index.html",
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
