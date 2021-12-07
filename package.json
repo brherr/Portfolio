@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "index.html",
-    "build": "npm run build"
+    
+    "build": "parcel build ./index.html"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/brherr/Portfolio/issues"
   },
-  "homepage": "https://github.com/brherr/Portfolio#readme"
+  "homepage": "https://github.com/brherr/Portfolio#readme",
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
 }
