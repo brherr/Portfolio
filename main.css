@@ -149,8 +149,11 @@ p.linkContainer {
 .linkIcons {
     display: flex;
     width: 20vw;
-    padding: 25px;
+    padding-right: 40px;
     justify-content: space-evenly;
+    align-items: center;
+    
+ 
 }
 
 .projectButtons {

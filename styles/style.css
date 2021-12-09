@@ -4326,15 +4326,15 @@ p {
 /*==================================================================
 29. Customize Panel / #customize-panel
 ==================================================================*/
-#customize-panel {
-  /*.options{
+/* #customize-panel {
+  .options{
 		.colors{
-			background-image: url('../images/customize/bg.jpg');
+			background-image: url('./altbg.jpg');
 			background-position: center center;
 			background-size: cover
 		}
-	}*/
-}
+	}
+} */
 #customize-panel {
   position: fixed;
   top: 130px;
