@@ -29,7 +29,7 @@
 		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
 	</head>
 	<body class="state1 background-100-e">
-		<div class="ext-nav background-95-h page-transition">
+		<!-- <div class="ext-nav background-95-h page-transition"> -->
 			<div class="view half-height">
 				<img alt class="bg static" src="images/contact-bg.jpg" />
 				<div class="content no-top-padding no-bottom-padding  full-height">
@@ -86,7 +86,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
+					
 					<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
 					<a class="navbar-brand" href="">Brad<span class="highlight">Herr.</span></a>
 				</div>
@@ -97,8 +97,7 @@
 						<li><a href="#about" class="hover-effect">About</a></li>
 						<li><a href="#team" class="hover-effect">Work</a></li>
 						<!-- <li><a href="#work" class="hover-effect">Services</a></li> -->
-						<li><a href="#contact" class="hover-effect">Contact</a></li>
-						<li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li>
+						<li><a href="#contact" class="hover-effect">Contact</a></li>	
 					</ul>
 				</div>
 			</div>
@@ -139,8 +138,7 @@
 		</div>
 		<!-- BEGIN: Page content -->
 		
-		<div class="video-bg" data-video="https://themes.x40.ru/templates/video/Mazwai/Phil_Fried-ElectricBulb.mp4" data-alternative="./images/altbg.jpg"></div>
-		<!-- <img class='mobile img.bg img bg' src="./images/altbg.jpg" /> -->
+		<div class="youtube-bg" data-video="Pnxyh3_0tE4" data-mute="yes" data-volume="0" data-alternative="images/altbg.jpg"></div>
 			<section id="home">
 			<div class="view">
 				<div class="content home-suzi full-size colors-c background-40">
@@ -199,7 +197,7 @@
 							<img class='cssicon' src="images/cssLogo.png" alt='css'>
 							<img class='jsicon' src="images/jsLogo.png" alt='js'>
 							<img class='reacticon' src="images/reactLogo.png" alt='react'>
-							<img class='nodeicon' src="images/nodeLogo.png" alt='node'>
+							<img class='nodeicon' src="images/nodeLogo.png" alt='node' style='padding: 4px;'>
 							<img class='pythonicon' src="images/pythonLogo.png" alt='python'>	
 							<img class='postgresicon' src="images/postgreLogo.png" alt='postgreSQL'>
 							<img class='expressicon' src="images/expressLogo.png" alt='express'>
@@ -259,9 +257,41 @@
 			<div  id="who-we-are">
 				<div class="content pane">
 					<div class="container-fluid">
-						<div class="row projectPics">
+						<div class="row ">
 							<div class="col-md-6 stretch-height pane">
-								<div>
+								<div class='projectPics'>
+									<img alt class="bg" src="images/Netflix.png"/>
+									<div class="content incut colors-d background-transparent">
+										<div class="position-middle-center text-right">
+											<a class="button background-lite-c heading-c" href="https://netflix-clone-b1a37.web.app/">LIVE</a>
+											<a class="button background-lite-c heading-c" href="https://github.com/brherr/Netflix-Clone">CODE</a>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 stretch-height pane">
+								<div class="view fluid-height">
+									<div class=" colors-h background-solid">
+										<div class="position-middle-center">
+											<h3 class="text-left"><span class="highlight">Netflix</span> UI </h3>
+											<p class="subtitle highlight"><strong>Clean and functional recreation of the Netflix UI</strong></p>
+											<p>Features include title selection from the TheMovieDB database as well as realistic scrolling and movie trailers on click from react-youtube api. </p>
+											<p>Built with React.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div  id="who-we-are" class='mobileProjects'>
+				<div class="content pane">
+					<div class="container-fluid">
+						<div class="row ">
+							<div class="col-md-6 stretch-height pane">
+								<div class='projectPics'>
 									<img alt class="bg" src="images/medpager-screenshot.png" />
 									<div class="content incut colors-d background-transparent">
 										<div class="position-middle-center text-right">
@@ -290,7 +320,7 @@
 			<div  id="who-we-are">
 				<div class="content pane">
 					<div class="container-fluid">
-						<div class="row">
+						<div class="row ">
 							<div class="col-md-6 stretch-height pane">
 								<div class='projectPics'>
 									<img alt class="bg" src="images/spotify-screeshot.png"/>

@@ -1,175 +1,183 @@
 .iconRow {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-basis: auto;
-    align-items: center;
-    justify-content:space-evenly;
-    min-width:min-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: min-content;
 }
 
 .htmlicon {
-    height: 20vh;
-    padding-right: 45px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 20vh;
+  padding-right: 45px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .htmlicon:hover {
-    height: 22vh;
+  height: 22vh;
 }
 
 .cssicon {
-    height: 15vh;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 15vh;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .cssicon:hover {
-    height: 17vh;
+  height: 17vh;
 }
 
 .jsicon {
-    height: 16.5vh;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 16.5vh;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .jsicon:hover {
-    height: 18.5vh;
+  height: 18.5vh;
 }
 
 .reacticon {
-    height: 10vh;
-    padding-right: 35px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 10vh;
+  padding-right: 35px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .reacticon:hover {
-    height: 12vh;
+  height: 12vh;
 }
 
 .nodeicon {
-    height: 15vh;
-    padding-right: 35px;
-    padding-left: 30px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 15vh;
+  padding-right: 35px;
+  padding-left: 30px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .nodeicon:hover {
-    height: 17vh;
+  height: 17vh;
 }
 
 .postgresicon {
-    height: 15vh;
-    padding-right: 35px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 15vh;
+  padding-right: 35px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .postgresicon:hover {
-    height: 17vh;
+  height: 17vh;
 }
 
 .expressicon {
-    height: 15vh;
-    padding-right: 50px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 15vh;
+  padding-right: 50px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .expressicon:hover {
-    height: 17vh;
+  height: 17vh;
 }
 
 .giticon {
-    height: 10vh;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 10vh;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .giticon:hover {
-    height: 12vh;
+  height: 12vh;
 }
 
 .pythonicon {
-    height: 15vh;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+  height: 15vh;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .pythonicon:hover {
-    height: 17vh;
+  height: 17vh;
 }
 
 .skillsAlign {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: bold;
-}
-
-.sideLook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
-   
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
 }
 
 .myPhoto {
-    height: 50vh;
-    border-radius: 50%;
-    border: 2px solid #dbab83;
+  height: 50vh;
+  border-radius: 50%;
+  border: 2px solid #dbab83;
 }
 
-
 .aboutPara {
-    border: 1px solid #dbab83;
-    padding-top: 40px;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+  border: 1px solid #dbab83;
+  padding-top: 40px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .aboutContainer {
-    display: flex;
-    justify-content: center;
-    padding: 4px;
-    border: 1px solid #dbab83;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 4px;
+  border: 1px solid #dbab83;
 }
 
 .linkContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2vh;
+  display: flex;
+  overflow: hidden;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
 }
 
 p.linkContainer {
-    
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .linkIcons {
-    display: flex;
-    width: 20vw;
-    padding-right: 40px;
-    justify-content: space-evenly;
-    align-items: center;
-    
- 
+  display: flex;
+  width: 20vw;
+  padding-right: 10px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .projectButtons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .projectPics {
-    display: flex;
-    flex-shrink: unset;
+  display: flex;
+  flex-shrink: unset;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    
-    
-    
+.projectPics > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .myPhoto,
+  .aboutContainer {
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .myPhoto {
+    object-fit: cover;
+  }
+  .skillsAlign {
+    display: block;
+  }
 }
